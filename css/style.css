@@ -3,3 +3,16 @@
     border-style: double;
     border-color: #6da3a0;
   }
+  table td{
+    padding: 0 4px;
+  }
+  table tr td {
+    font-size: 16px; /* Default font size for non-mobile view */
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    table tr td {
+      font-size: 12px; /* Adjust font size for mobile view */
+    }
+  }
